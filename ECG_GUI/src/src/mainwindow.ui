@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1330</width>
+    <height>549</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,18 +17,18 @@
    <widget class="QCustomPlot" name="dataPlot" native="true">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>30</y>
-      <width>591</width>
-      <height>361</height>
+      <x>100</x>
+      <y>10</y>
+      <width>1191</width>
+      <height>491</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="acquisition">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>90</y>
+      <x>10</x>
+      <y>80</y>
       <width>86</width>
       <height>26</height>
      </rect>
@@ -40,7 +40,7 @@
    <widget class="QComboBox" name="PortAvailable">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>10</x>
       <y>50</y>
       <width>79</width>
       <height>26</height>
@@ -50,7 +50,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>30</x>
       <y>30</y>
       <width>58</width>
       <height>18</height>
@@ -60,13 +60,26 @@
      <string>Port</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="StopBtn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>86</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1330</width>
      <height>23</height>
     </rect>
    </property>
